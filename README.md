@@ -10,6 +10,8 @@ Toma Nakane Marcil
 
 Stephen Iannuccilli
 
+now with 100% more Shiva Patel
+
 # Special Notes
 
 To Avoid soft locking in current build:
