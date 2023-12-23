@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64da2165c6ec5984798084edae8843a7, type: 3}
+  m_Name: TutorielKimmieHouse
+  m_EditorClassIdentifier: 
+  quests:
+  - name: Phone Tutoriel
+    totalProgressionStages: 2
+    progress:
+    - objectiveDescription: OpenPhone
+      prefabObjects:
+      - {fileID: 3714525864187851199, guid: b74ded210b2b2934289773754a7fae83, type: 3}
+      spawnPositions:
+      - {x: 0, y: 0, z: 0}
+      prefabActions: 01000000
+      setDialogueTo: {fileID: 11400000, guid: 24c32f1e0222caf479a6c3b89aa97817, type: 2}
+    - objectiveDescription: OpenCamera
+      prefabObjects:
+      - {fileID: 3714525864187851199, guid: b74ded210b2b2934289773754a7fae83, type: 3}
+      spawnPositions:
+      - {x: 0, y: 0, z: 0}
+      prefabActions: 01000000
+      setDialogueTo: {fileID: 11400000, guid: 3afc75c94fafba84493e118ec0cd85cd, type: 2}
+    uiCanvasPrefabs:
+    - {fileID: 0}
+    developerComments: 
+    isCompleted: 0
+    GiveRewardOnCompletion: 0
+  - name: Quest to get access to Studio
+    totalProgressionStages: 2
+    progress:
+    - objectiveDescription: CheckNewsPaper
+      prefabObjects:
+      - {fileID: 5214425102274853660, guid: 4cab1ea58dff7eb43a0c549fc83f7165, type: 3}
+      spawnPositions:
+      - {x: 0, y: 1.845, z: 1.15}
+      prefabActions: 01000000
+      setDialogueTo: {fileID: 0}
+    - objectiveDescription: FindKey
+      prefabObjects:
+      - {fileID: 3714525864187851199, guid: b74ded210b2b2934289773754a7fae83, type: 3}
+      spawnPositions:
+      - {x: 0, y: 0, z: 0}
+      prefabActions: 01000000
+      setDialogueTo: {fileID: 11400000, guid: 348e78218ddf7a14bb1c7941508f7cea, type: 2}
+    uiCanvasPrefabs:
+    - {fileID: 0}
+    developerComments: 
+    isCompleted: 0
+    GiveRewardOnCompletion: 1

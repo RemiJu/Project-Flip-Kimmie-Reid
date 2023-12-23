@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d0a215d445d68a4f8286639a22b89d1, type: 3}
+  m_Name: CameraOpenedFirstTime
+  m_EditorClassIdentifier: 
+  noMovementWhileDialogue: 1
+  dialogueLines:
+  - id: 0
+    speakerName: Kimmie
+    text: Huh!? What's this?
+    durationInSeconds: 3.1
+    hideDelay: 1.2
+    manualClick: 1
+    portrait: {fileID: 2800000, guid: 41b00e94d343e31428c9fd2e56fa7292, type: 3}
+    portraitRotation: 0
+    backdrop: {fileID: 2800000, guid: 60b345856eb8d0546b60a2ffb58aac95, type: 3}
+  - id: 1
+    speakerName: Kimmie
+    text: The wallpaper shows up on camera differently. It looks like the pattern
+      I only remember seeing in old photos of this house... Could it have something
+      to do with the light?
+    durationInSeconds: 3.1
+    hideDelay: 1.2
+    manualClick: 1
+    portrait: {fileID: 2800000, guid: 41b00e94d343e31428c9fd2e56fa7292, type: 3}
+    portraitRotation: 0
+    backdrop: {fileID: 2800000, guid: 60b345856eb8d0546b60a2ffb58aac95, type: 3}
+  - id: 2
+    speakerName: Kimmie
+    text: I wonder if other parts of the house show up differently on camera.
+    durationInSeconds: 3.1
+    hideDelay: 1.2
+    manualClick: 1
+    portrait: {fileID: 2800000, guid: 41b00e94d343e31428c9fd2e56fa7292, type: 3}
+    portraitRotation: 0
+    backdrop: {fileID: 2800000, guid: 60b345856eb8d0546b60a2ffb58aac95, type: 3}
+  - id: 3
+    speakerName: 
+    text: Press the Space button to take pictures of anything interesting. You can
+      always view photos you've taken in the Gallery app, pressing Enter to expand
+      them.
+    durationInSeconds: 3.1
+    hideDelay: 1.2
+    manualClick: 1
+    portrait: {fileID: 28268798066460806, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    portraitRotation: 0
+    backdrop: {fileID: 2800000, guid: 60b345856eb8d0546b60a2ffb58aac95, type: 3}
+  - id: 4
+    speakerName: 
+    text: Some objects such as doors are interactable using the E key.
+    durationInSeconds: 3.1
+    hideDelay: 1.2
+    manualClick: 1
+    portrait: {fileID: 28268798066460806, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    portraitRotation: 0
+    backdrop: {fileID: 2800000, guid: 60b345856eb8d0546b60a2ffb58aac95, type: 3}
+  - id: 5
+    speakerName: 
+    text: Press P once again to close the phone.
+    durationInSeconds: 3.1
+    hideDelay: 1.2
+    manualClick: 1
+    portrait: {fileID: 28268798066460806, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    portraitRotation: 0
+    backdrop: {fileID: 2800000, guid: 60b345856eb8d0546b60a2ffb58aac95, type: 3}

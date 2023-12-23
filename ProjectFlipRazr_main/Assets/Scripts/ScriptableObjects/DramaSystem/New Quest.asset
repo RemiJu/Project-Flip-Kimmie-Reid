@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64da2165c6ec5984798084edae8843a7, type: 3}
+  m_Name: New Quest
+  m_EditorClassIdentifier: 
+  quests:
+  - name: Player learns how to move and interact with things
+    totalProgressionStages: 2
+    progress:
+    - objectiveDescription: Use WASD to move.
+      prefabObjects:
+      - {fileID: 3714525864187851199, guid: b74ded210b2b2934289773754a7fae83, type: 3}
+      spawnPositions:
+      - {x: -1.56, y: 4.7416353, z: 24.12}
+      prefabActions: 01000000
+    - objectiveDescription: Open the bedroom door using E.
+      prefabObjects:
+      - {fileID: 0}
+      spawnPositions:
+      - {x: 0, y: 0, z: 0}
+      prefabActions: 01000000
+    - objectiveDescription: Go downstairs
+      prefabObjects:
+      - {fileID: 0}
+      spawnPositions:
+      - {x: 0, y: 0, z: 0}
+      prefabActions: 01000000
+    uiCanvasPrefabs:
+    - {fileID: 0}
+    developerComments: 
+    isCompleted: 0
+  - name: Kimmie figures out where to go
+    totalProgressionStages: 2
+    progress: []
+    uiCanvasPrefabs: []
+    developerComments: 
+    isCompleted: 0

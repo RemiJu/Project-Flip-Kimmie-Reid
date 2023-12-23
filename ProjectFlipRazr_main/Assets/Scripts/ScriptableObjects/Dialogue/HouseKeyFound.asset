@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d0a215d445d68a4f8286639a22b89d1, type: 3}
+  m_Name: HouseKeyFound
+  m_EditorClassIdentifier: 
+  noMovementWhileDialogue: 1
+  dialogueLines:
+  - id: 0
+    speakerName: Kimmie
+    text: Whoa! When I took a picture of the key it became a physical object!
+    durationInSeconds: 1
+    hideDelay: 1
+    manualClick: 1
+    portrait: {fileID: 2800000, guid: 41b00e94d343e31428c9fd2e56fa7292, type: 3}
+    portraitRotation: 0
+    backdrop: {fileID: 2800000, guid: 60b345856eb8d0546b60a2ffb58aac95, type: 3}
+  - id: 1
+    speakerName: Kimmie
+    text: With this, I can finally head to the studio!
+    durationInSeconds: 1
+    hideDelay: 1
+    manualClick: 1
+    portrait: {fileID: 2800000, guid: 41b00e94d343e31428c9fd2e56fa7292, type: 3}
+    portraitRotation: 0
+    backdrop: {fileID: 2800000, guid: 60b345856eb8d0546b60a2ffb58aac95, type: 3}
+  - id: 2
+    speakerName: 
+    text: Open the Map app on the Flip Phone and select the studio to travel.
+    durationInSeconds: 1
+    hideDelay: 1
+    manualClick: 1
+    portrait: {fileID: 2800000, guid: 074075d978366174a9b24c5027ae50ac, type: 3}
+    portraitRotation: 0
+    backdrop: {fileID: 2800000, guid: 60b345856eb8d0546b60a2ffb58aac95, type: 3}
